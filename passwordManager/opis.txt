@@ -1,0 +1,4 @@
+Lozinke baze su zaštićene pomoću algoritma AES u GCM načinu rada. Time je pružena povjerljivost i integritet baze. 
+Ključ za komunikaciju je generiran pomoću "PBKDF2 with HmacSHA256" algoritma.
+Inicijalizacijski vektor i salt se generiraju pomoću SecureRandom razreda.
+Prilikom svakog novog korištenja baze generiraju se novi inicijalizacijski vektor i salt.

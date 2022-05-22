@@ -1,0 +1,13 @@
+Programski kod se nalazi u src/PasswordManager. Prevođenje i pokretanje kao i svaki drugi java program. Kod pokretanja potrebno je i poslati argumente programu. Prvi argument
+označava željenu naredbu.
+
+init -> inicijalizacija
+get -> dohvat lozinke
+put -> dodavanje nove lozinke
+
+init naredba-> drugi argument glavna zaporka kojom se pristupa bazi zaporki.
+get -> drugi argument glavna zaporka, treći argument je adresa za koju se želi dohvatiti zaporka.
+put -> drugi argument glavna zaporka, treći argument je adresa, a četvri argument zaporka koja se želi pohraniti u bazu.
+
+Zvanjem naredbe init nad već inicijaliziranom bazom se briše cijela baza lozinki. Kako bi se izbrisala baza potrebno je pozvati naredbu init sa glavnom zaporkom te trećim
+argumentom koji će biti nova zaporka.
