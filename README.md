@@ -1,3 +1,1 @@
-# projects
-
-Java projects
+# Java projects
